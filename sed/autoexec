@@ -31,7 +31,7 @@ echo install setuid_wrapper
 /data/local/tmp/busybox chmod 6755 /system/bin/setuid_wrapper
 
 echo install toolbox
-/data/local/tmp/busybox rm/system/bin/toolbox
+/data/local/tmp/busybox rm　/system/bin/toolbox
 /data/local/tmp/busybox cp /data/local/tmp/toolbox /system/bin/toolbox
 /data/local/tmp/busybox chown 0.2000 /system/bin/toolbox
 /data/local/tmp/busybox chmod 755 /system/bin/toolbox
